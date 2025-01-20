@@ -10,3 +10,6 @@
             not every side effect must use useEffect because its extra execution cycle and we use it only
             to prevent infinte loops when updating a state and when this side effect must execute whin 
             the component executed else you dont need it "like the example fo local storage".
+          --if you look at the code you will find that the data retreaved by the localstorage are instantly
+            mains that this pace of code executes syncronusly and get the data immediatly so we dont need 
+            useEffect here.  
