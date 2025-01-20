@@ -13,3 +13,5 @@
           --if you look at the code you will find that the data retreaved by the localstorage are instantly
             mains that this pace of code executes syncronusly and get the data immediatly so we dont need 
             useEffect here.  
+
+    2-in this ex we try to react with modal declaratively instead of imparativly way and we did the first steps
