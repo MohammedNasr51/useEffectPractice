@@ -2,7 +2,11 @@
         لما يبقي عندي حاجه مستنيها تحصل علشان اعمل حاجه ليها علياقة برندرة الكمبوننت 
         ف بستخدم الهوك دي علشان كده زي اني استني فيتش من ا بي اي 
         او استني البروازر يعمل حاجه هي ف الاساس مش من رندرة الكمبوننت بس هتأثر تأثير جزري علي الرندره
-        
+
     1-اول حاجه بتحط الحاجة اللي انت مستني تأثيرها علشان يأثر علي حاجه ف الريندر يعني ف مثالنا ده احنا مستنيين ال 
      للبرتاوزر يجيب اللوكيشن لليوزر و يرتب الاماكن بعدين يرجع بيهم مترتبين ولما يرجع api
      ستلي الاستيت تاني بالداتا دي بعدين هي كده خلاص جهزت ف الاماكن تبان و تترندر  الاب 
+    **very important note :
+            not every side effect must use useEffect because its extra execution cycle and we use it only
+            to prevent infinte loops when updating a state and when this side effect must execute whin 
+            the component executed else you dont need it "like the example fo local storage".
