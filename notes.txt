@@ -15,3 +15,7 @@
             useEffect here.  
 
     2-in this ex we try to react with modal declaratively instead of imparativly way and we did the first steps
+
+    3- in the modal ex checking the open method to let us use showModal and close will 
+    give us error because it will executed before rendering the whole component and that
+    mains that this is a side effect needs the component to render then execute this code.
