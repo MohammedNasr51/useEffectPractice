@@ -19,3 +19,16 @@
     3- in the modal ex checking the open method to let us use showModal and close will 
     give us error because it will executed before rendering the whole component and that
     mains that this is a side effect needs the component to render then execute this code.
+
+    4- Dependencies array contains the values of props or states that can cause the component 
+    to reexecute again so it will affect the code in the use effect so we should put it in the
+    Dependencies array.
+
+    5- if we want to set a timer which will execute a prop or something like that you need to 
+    make sure that it renders with its component when reacting with only then you make sure that
+    you clear it to prevent unnecessery bugs so we need use effect to do some thing like that.
+
+    6- know that use effect returns a callback function thar will executed right before the 
+    component dismount or before the subscuint execution of the effect function it self and
+    this will be the method to clear the timer.
+    
