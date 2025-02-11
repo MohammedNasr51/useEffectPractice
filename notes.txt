@@ -66,3 +66,6 @@ recreating it again
 
 * it reterst a value refer to the function and takes a dependency array if it has any stats or
 context values and so on 
+
+9- because the interval makes the whole confirmation component reexecutes every 10 milly seconds
+so we extract the progressbar into a seperate component to optimize the app.
